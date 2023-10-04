@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid green; */
+}
+
+#TODO {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: start;
+    height: 100vh;
+}
+
+#usuario {
+    position: fixed;
+    display: grid;
+    grid-template-rows: 220px auto;
+    background-color: rgb(46, 46, 46);
+    width: 35%;
+    height: 100vh;
+    color: white;
+}
+
+#parte_superior {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-left: 10px;
+}
+
+#pfp_principal {
+    width: 150px;
+    border-radius: 8px;
+}
+
+#mi_nombre {
+    font-family: 'Gabarito', cursive;
+    width: 300px;
+    font-size: 26px;
+}
+
+#texto_random {
+    padding: 20px;
+    font-family: 'Rough Notes', cursive;
+    font-size: 20px;
+}
+
+#conexiones {
+    width: 190vh;
+    margin-top: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    gap: 40px;
+}
+
+.contenido {
+    display: flex;
+    flex-direction: row;
+    gap: 20px
+}
+
+.pfp {
+    height: 200px;
+    border-radius: 8px;
+    transition: .8s;
+}
+
+#descripcion_1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 30px;
+}
+
+.pfp:hover {
+    transform: scale(1.1);
+}
