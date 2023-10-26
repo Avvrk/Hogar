@@ -1,0 +1,11 @@
+# Ignorar el directorio .firebase
+/.firebase/
+
+# Ignorar el archivo .firebaserc
+/.firebaserc
+
+# Ignorar el archivo 404.html
+/404.html
+
+# Ignorar el archivo firebase.json
+/firebase.json
