@@ -32,30 +32,20 @@ article {
     color: white;
     border-radius: 4px;
     border: 1px solid #5a5c61;
-<<<<<<< HEAD
-    
-=======
     padding-bottom: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
->>>>>>> 8b9cb07df0182d16d98707ba584a541dab90b0f5
 }
 
 input[type='button'] {
     width: 50px;
-<<<<<<< HEAD
-=======
     height: 25px;
->>>>>>> 8b9cb07df0182d16d98707ba584a541dab90b0f5
     background-color: aqua;
     border: 0;
     border-radius: 5px;
     box-shadow: 0px 0px 4px #5a5c61;
-<<<<<<< HEAD
-=======
     transition: .6s;
->>>>>>> 8b9cb07df0182d16d98707ba584a541dab90b0f5
 }
 
 a {
@@ -76,11 +66,9 @@ p {
     visibility: visible;
     opacity: 1;
 }
-<<<<<<< HEAD
-=======
 
 input:hover {
     transform: scale(1.1);
     
 }
->>>>>>> 8b9cb07df0182d16d98707ba584a541dab90b0f5
+
